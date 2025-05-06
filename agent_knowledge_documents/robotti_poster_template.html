@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{POSTER_TITLE}}</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f8fc;
+      color: #1b1f23;
+      margin: 0;
+      padding: 1.5rem;
+      font-size: 0.95rem;
+    }
+    .container {
+      max-width: 950px;
+      background: white;
+      margin: 0 auto;
+      padding: 2rem;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1.5rem;
+    }
+    h1 {
+      font-size: 2.3rem;
+      font-weight: 900;
+      text-align: center;
+      margin: 0 0 1.2rem 0;
+      background: {{BASE_COLOR}};
+      color: white;
+      padding: 0.75rem;
+      border-radius: 6px;
+      grid-column: span 2;
+    }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-top: 1.5rem;
+      color: {{BASE_COLOR}};
+      border-bottom: 2px solid {{BORDER_COLOR}};
+      padding-bottom: 0.25rem;
+    }
+    p {
+      font-size: 1rem;
+      margin: 0.6rem 0;
+    }
+    ul {
+      margin-top: 0.4rem;
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.4rem;
+    }
+    .quote {
+      font-style: italic;
+      padding-left: 1rem;
+      border-left: 4px solid {{BORDER_COLOR}};
+      margin: 0.8rem 0;
+    }
+    .quick-tips {
+      background: #fffbe6;
+      padding: 1.2rem;
+      border: 2px dashed #ffbf00;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      position: relative;
+    }
+    .quick-tips::before {
+      content: '📌 Quick Tips';
+      position: absolute;
+      top: -1rem;
+      left: 1rem;
+      background: #ffbf00;
+      color: black;
+      padding: 0.25rem 0.5rem;
+      font-weight: bold;
+      font-size: 0.75rem;
+      border-radius: 4px;
+    }
+    .quick-tips ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .quick-tips li {
+      margin-bottom: 0.6rem;
+    }
+    .quick-tips li strong {
+      display: inline-block;
+      margin-bottom: 0.15rem;
+    }
+    .bottom-highlight {
+      background-color: {{BASE_COLOR}};
+      color: white;
+      padding: 1.2rem;
+      margin-top: 1.5rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      line-height: 1.6;
+      font-weight: 600;
+      box-shadow: 0 0 0 2px {{INSET_COLOR}} inset;
+    }
+    .footer {
+      font-size: 0.85rem;
+      border-top: 2px solid #ccc;
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      grid-column: span 2;
+    }
+    a {
+      color: {{BASE_COLOR}};
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>{{POSTER_TITLE_EMOJI}}</h1>
+
+    <div class="main-content">
+      <h2>Section Header One</h2>
+      <p class="quote">“Insert an emotional or relatable quote to set the context.”</p>
+      <p>This paragraph explains the issue in a narrative or real-world framing.</p>
+
+      <h2>Section Header Two</h2>
+      <p>Use short, clear bullets to explain what's at risk:</p>
+      <ul>
+        <li>Risk or symptom #1</li>
+        <li>Risk or symptom #2</li>
+        <li>Risk or symptom #3</li>
+      </ul>
+
+      <h2>Section Header Three</h2>
+      <p>Offer a mindset shift, reflection, or a reminder that empowers smart choices.</p>
+
+      <div class="bottom-highlight">
+        🔽 <strong>BOTTOM LINE:</strong><br>
+        Insert your call-to-action or takeaway insight.<br><br>
+        Keep it short and strong.
+      </div>
+    </div>
+
+    <div class="quick-tips">
+      <h3><em>"Short wisdom line goes here."</em></h3>
+
+      <h4>Drafting</h4>
+      <ul>
+        <li><strong>✍ Co-write, don’t ghostwrite:</strong> Let AI assist — but keep your voice.</li>
+      </ul>
+
+      <h4>Reviewing</h4>
+      <ul>
+        <li><strong>🔍 Verify everything:</strong> Check tone, facts, and names before sending.</li>
+      </ul>
+
+      <h4>Responsibility</h4>
+      <ul>
+        <li><strong>✅ Double-check quotes:</strong> If it sounds like you, make sure it is you.</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <strong>Further Reading:</strong>
+      <ul>
+        <li><a href="#">Trusted Link One</a></li>
+        <li><a href="#">Trusted Link Two</a></li>
+        <li><a href="#">Trusted Link Three</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

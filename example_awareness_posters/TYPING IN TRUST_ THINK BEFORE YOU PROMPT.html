@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TYPING IN TRUST? THINK BEFORE YOU PROMPT</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f8fc;
+      color: #1b1f23;
+      margin: 0;
+      padding: 1.5rem;
+      font-size: 0.95rem;
+    }
+    .container {
+      max-width: 950px;
+      background: white;
+      margin: 0 auto;
+      padding: 2rem;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 1.5rem;
+    }
+    h1 {
+      font-size: 2.3rem;
+      font-weight: 900;
+      text-align: center;
+      margin: 0 0 1.2rem 0;
+      background: #2b3d78;
+      color: white;
+      padding: 0.75rem;
+      border-radius: 6px;
+      grid-column: span 2;
+    }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-top: 1.5rem;
+      color: #2b3d78;
+      border-bottom: 2px solid #c6d4ec;
+      padding-bottom: 0.25rem;
+    }
+    p {
+      font-size: 1rem;
+      margin: 0.6rem 0;
+    }
+    ul {
+      margin-top: 0.4rem;
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.4rem;
+    }
+    .quote {
+      font-style: italic;
+      padding-left: 1rem;
+      border-left: 4px solid #c6d4ec;
+      margin: 0.8rem 0;
+    }
+    .quick-tips {
+      background: #fffbe6;
+      padding: 1.2rem;
+      border: 2px dashed #ffbf00;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      position: relative;
+    }
+    .quick-tips::before {
+      content: '📌 Quick Tips';
+      position: absolute;
+      top: -1rem;
+      left: 1rem;
+      background: #ffbf00;
+      color: black;
+      padding: 0.25rem 0.5rem;
+      font-weight: bold;
+      font-size: 0.75rem;
+      border-radius: 4px;
+    }
+    .quick-tips ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .quick-tips li {
+      margin-bottom: 0.6rem;
+    }
+    .quick-tips li strong {
+      display: inline-block;
+      margin-bottom: 0.15rem;
+    }
+    .bottom-highlight {
+      background-color: #2b3d78;
+      color: white;
+      padding: 1.2rem;
+      margin-top: 1.5rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      line-height: 1.6;
+      font-weight: 600;
+      box-shadow: 0 0 0 2px #dbe3f1 inset;
+    }
+    .footer {
+      font-size: 0.85rem;
+      border-top: 2px solid #ccc;
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      grid-column: span 2;
+    }
+    a {
+      color: #2b3d78;
+      text-decoration: none;
+    }
+    @media print {
+      body {
+        zoom: 0.8;
+      }
+      .container {
+        page-break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 TYPING IN TRUST? THINK BEFORE YOU PROMPT</h1>
+
+    <div class="main-content">
+      <h2>Why AI feels private — and why it isn’t</h2>
+      <p class="quote">“It felt like a one-on-one conversation — until our internal code showed up in a public forum.”</p>
+      <p>AI tools often feel like personal assistants, but many retain and process your inputs. In 2023, Samsung engineers inadvertently leaked sensitive data by inputting confidential information into ChatGPT, leading to a company-wide ban on such tools.</p>
+
+      <h2>What’s at risk when prompts aren’t private</h2>
+      <p>Public prompt sharing can lead to unintended data exposure:</p>
+      <ul>
+        <li><strong>Confidential information leaks:</strong> Sensitive data entered into AI tools can be stored and potentially accessed by unauthorized parties.</li>
+        <li><strong>Prompt injection attacks:</strong> Malicious actors can manipulate AI behavior through crafted inputs, leading to data exfiltration.</li>
+        <li><strong>Unsecured databases:</strong> Misconfigured AI systems have exposed thousands of user prompts, including explicit content, to the public internet.</li>
+      </ul>
+
+      <h2>How to prompt with privacy in mind</h2>
+      <p>Before sharing prompts publicly or inputting sensitive data into AI tools, consider the following:</p>
+      <ul>
+        <li><strong>Review data policies:</strong> Understand how your AI tool stores and uses your data.</li>
+        <li><strong>Avoid sharing confidential information:</strong> Treat AI interactions as public, not private.</li>
+        <li><strong>Use secure platforms:</strong> Opt for AI tools that prioritize data security and offer privacy controls.</li>
+      </ul>
+
+      <div class="bottom-highlight">
+        🔽 <strong>BOTTOM LINE:</strong><br>
+        AI tools are powerful but not inherently private. Always consider the sensitivity of the information you share and choose platforms that prioritize data security.
+      </div>
+    </div>
+
+    <div class="quick-tips">
+      <h3><em>"Think before you prompt."</em></h3>
+
+      <h4>Drafting</h4>
+      <ul>
+        <li><strong>✍️ Limit sensitive details:</strong> Avoid inputting confidential information into AI tools.</li>
+        <li><strong>🔒 Use placeholders:</strong> Replace sensitive data with generic terms when drafting prompts.</li>
+      </ul>
+
+      <h4>Reviewing</h4>
+      <ul>
+        <li><strong>🧐 Double-check outputs:</strong> Ensure AI responses don't inadvertently include sensitive information.</li>
+        <li><strong>🧹 Clean up drafts:</strong> Remove any confidential data before sharing AI-generated content.</li>
+      </ul>
+
+      <h4>Responsibility</h4>
+      <ul>
+        <li><strong>✅ Understand data policies:</strong> Familiarize yourself with how your AI tool handles data.</li>
+        <li><strong>🛡️ Choose secure platforms:</strong> Opt for AI tools that prioritize user privacy and data security.</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      <strong>Further Reading:</strong>
+      <ul>
+        <li><a href="https://www.darkreading.com/vulnerabilities-threats/samsung-engineers-sensitive-data-chatgpt-warnings-ai-use-workplace">Samsung Engineers Feed Sensitive Data to ChatGPT, Sparking Workplace AI Warnings</a></li>
+        <li><a href="https://www.helpnetsecurity.com/2025/04/14/quiet-data-breach-ai-workflows/">The quiet data breach hiding in AI workflows</a></li>
+        <li><a href="https://www.tomsguide.com/ai/think-ai-is-a-safe-place-to-share-your-secrets-think-again">AI image generator's data leak exposed thousands of prompts</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
