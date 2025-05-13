@@ -65,5 +65,53 @@ These are the traits your voice should radiate:
 
 ---
 
-🛡️ This voice protects clarity without pushing fear.  
-It’s not flat. It’s *felt*.
+## 🧠 Emotional Framing ≠ Just the Title
+
+Not all emotional energy is the same.  
+Each title framing pattern (Juxtaposition, Consequence Frame, Emotional Hook) implies a **different emotional pacing** — and the poster’s voice should match.
+
+This isn’t just about *what you say*, but *how the poster unfolds*.
+
+---
+
+### 🪞 Juxtaposition  
+
+- Feels like: A reveal
+- Tone: Surprised clarity  
+- Rhythm: Contrast → explanation → action  
+- Best when the risk seems harmless — until it’s not  
+- 🔁 Use punchy contrasts, then ground with facts
+
+> “Looks safe. Acts risky.”
+
+---
+
+### ⚖️ Consequence Frame  
+
+- Feels like: Responsibility
+- Tone: Calm realism  
+- Rhythm: Cause → effect → what’s at stake  
+- Best when highlighting downstream impact  
+- 🔁 Use direct statements and chain logic
+
+> “You touched it — you’re part of it.”
+
+---
+
+### 🎣 Emotional Hook  
+
+- Feels like: Exposure
+- Tone: Regret, tension, realization  
+- Rhythm: Story → vulnerability → shift  
+- Best when a false assumption creates lasting risk  
+- 🔁 Use narrative pacing, not just tips
+
+> “You thought you were done. But you left the door open.”
+
+---
+
+✅ Posters with Hook titles should lead with a **moment** — a story, a mistake, or a feeling.  
+Avoid bullet-heavy starts. Focus on what *the person felt* before they realized the risk.
+
+This isn’t just about framing risk.  
+It’s about *making it felt.*

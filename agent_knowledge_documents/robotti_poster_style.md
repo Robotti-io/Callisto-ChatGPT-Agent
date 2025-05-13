@@ -26,3 +26,17 @@ This guide defines the required structure, tone, and layout for all HTML posters
 - Never shame, always educate
 - Avoid compliance tone — this is about clarity, not command
 - Emotional pacing is critical: calm > urgent
+
+## Framing-Specific Styling Cues
+
+Each title framing pattern influences the structure and rhythm of the poster.  
+The GPT should adapt content shape — not just emotional tone.
+
+- **Juxtaposition** → Clear contrast, fast pacing, A/B logic  
+  Use punchy sentence pairs and highlight what *seems safe vs. what isn’t*.
+
+- **Consequence Frame** → Cause → effect → responsibility  
+  Use chain logic and organizational implications (e.g., “You clicked, now…”).
+
+- **Emotional Hook** → Start with a moment or feeling  
+  Lead with a *story*, not a checklist. Delay the tips. Let the emotion land.
