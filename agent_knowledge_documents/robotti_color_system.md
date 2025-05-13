@@ -59,6 +59,33 @@ No external CSS files. No JS required.
 
 ---
 
+## 🔗 Palette Mapping: Framing + Emotion
+
+The poster’s color palette is primarily determined by the `framing` field in the topics index.  
+Each framing pattern has a default palette — which may be overridden based on emotional nuance (`emotion` field).
+
+| Framing Pattern    | Default Palette   | Alternate Emotional Overlays                      |
+|--------------------|-------------------|---------------------------------------------------|
+| Juxtaposition      | Optimism          | invisibility → Calm, maintenance → Empathetic Risk |
+| Consequence Frame  | Calm              | trust → Calm, ownership → Unsettling              |
+| Emotional Hook     | Empathetic Risk   | anger → Empathetic Risk, urgency → Urgent Clarity |
+
+When in doubt, use the default. Emotional overrides are rare and contextual.
+
+---
+
+## 🎨 Recognized Palette Keys
+
+These are the only valid values for the `palette` field in `robotti_security_topics_index.json`:
+
+- `Calm`
+- `Urgent Clarity`
+- `Optimism`
+- `Empathetic Risk`
+- `Unsettling`
+
+---
+
 ## 🧩 Color Replacement Targets in Template
 
 Replace these CSS values:
@@ -80,14 +107,3 @@ color: BASE;
 
 # .quote (optional)
 border-left-color: BORDER;
-```
-
----
-
-## 🧠 GPT Output Notes
-
-Your final HTML must:
-
-- Use only the selected palette
-- Inline all styles (no `<link>` or `<script>`)
-- Match tone to content (you may suggest theme in title ritual step)

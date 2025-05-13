@@ -1,94 +1,74 @@
 [
   {
     "title": "GOT HOOKED WITH RAGE? JUST DON'T ENGAGE",
-    "title_pattern": "\ud83c\udfa3 Emotional Hook",
-    "theme": "anger",
-    "poster_hint": "Why anger is a vulnerability \u2014 not a defense",
-    "keywords": [
-      "rage-reply",
-      "emotional manipulation",
-      "phishing"
-    ]
+    "framing": "Emotional Hook",
+    "emotion": "anger",
+    "palette": "Empathetic Risk",
+    "risk_category": "emotional manipulation",
+    "poster_hint": "Why anger is a vulnerability — not a defense",
+    "keywords": ["rage-reply", "emotional manipulation", "phishing"]
   },
   {
     "title": "HELPFUL ADD-ON, HIDDEN RISK",
-    "title_pattern": "\ud83e\ude9e Juxtaposition",
-    "theme": "convenience",
-    "poster_hint": "Why it seems harmless \u2014 and why it\u2019s not",
-    "keywords": [
-      "permissions",
-      "addons",
-      "privacy",
-      "browser extension"
-    ]
+    "framing": "Juxtaposition",
+    "emotion": "convenience",
+    "palette": "Optimism",
+    "risk_category": "browser extension",
+    "poster_hint": "Why it seems harmless — and why it’s not",
+    "keywords": ["permissions", "addons", "privacy", "browser extension"]
   },
   {
-    "title": "COPILOT WROTE IT \u2013 BUT YOU SIGNED IT",
-    "title_pattern": "\u2696\ufe0f Consequence Frame",
-    "theme": "trust",
-    "poster_hint": "Why AI feels easy \u2014 and still demands your eyes",
-    "keywords": [
-      "copilot",
-      "ChatGPT",
-      "confidential data",
-      "AI drafting"
-    ]
+    "title": "COPILOT WROTE IT – BUT YOU SIGNED IT",
+    "framing": "Consequence Frame",
+    "emotion": "trust",
+    "palette": "Calm",
+    "risk_category": "AI drafting",
+    "poster_hint": "Why AI feels easy — and still demands your eyes",
+    "keywords": ["copilot", "ChatGPT", "confidential data", "AI drafting"]
   },
   {
     "title": "JUST A TAP? THAT'S HOW MFA GETS TIRED",
-    "title_pattern": "\ud83c\udfa3 Emotional Hook",
-    "theme": "fatigue",
-    "poster_hint": "Why \u2018approve fatigue\u2019 is a new attack vector",
-    "keywords": [
-      "multi-factor auth",
-      "push bombing",
-      "authenticator",
-      "MFA fatigue"
-    ]
+    "framing": "Emotional Hook",
+    "emotion": "fatigue",
+    "palette": "Empathetic Risk",
+    "risk_category": "authentication",
+    "poster_hint": "Why ‘approve fatigue’ is a new attack vector",
+    "keywords": ["multi-factor auth", "push bombing", "authenticator", "MFA fatigue"]
   },
   {
-    "title": "YOUR PERSONAL DEVICE, OUR COMPANY\u2019S RISK",
-    "title_pattern": "\u2696\ufe0f Consequence Frame",
-    "theme": "ownership",
+    "title": "YOUR PERSONAL DEVICE, OUR COMPANY’S RISK",
+    "framing": "Consequence Frame",
+    "emotion": "ownership",
+    "palette": "Calm",
+    "risk_category": "BYOD",
     "poster_hint": "Why BYOD convenience opens shared doors",
-    "keywords": [
-      "BYOD",
-      "SSO",
-      "app permissions"
-    ]
+    "keywords": ["BYOD", "SSO", "app permissions"]
   },
   {
-    "title": "YOU COPIED IT \u2014 WHO ELSE PASTED IT?",
-    "title_pattern": "\ud83e\ude9e Juxtaposition",
-    "theme": "invisibility",
+    "title": "YOU COPIED IT — WHO ELSE PASTED IT?",
+    "framing": "Juxtaposition",
+    "emotion": "invisibility",
+    "palette": "Optimism",
+    "risk_category": "clipboard",
     "poster_hint": "Why clipboard memory lingers longer than you think",
-    "keywords": [
-      "copy-paste",
-      "passwords",
-      "clipboard"
-    ]
+    "keywords": ["copy-paste", "passwords", "clipboard"]
   },
   {
-    "title": "LOOKS LEGIT? CHECK THE LINK \u2014 THEN CHECK AGAIN",
-    "title_pattern": "\ud83c\udfa3 Emotional Hook",
-    "theme": "urgency",
+    "title": "LOOKS LEGIT? CHECK THE LINK — THEN CHECK AGAIN",
+    "framing": "Emotional Hook",
+    "emotion": "urgency",
+    "palette": "Urgent Clarity",
+    "risk_category": "phishing",
     "poster_hint": "Why urgency is the oldest trick in phishing",
-    "keywords": [
-      "phishing",
-      "link spoofing",
-      "email bait"
-    ]
+    "keywords": ["phishing", "link spoofing", "email bait"]
   },
   {
-    "title": "ONE TAB OUT OF DATE \u2014 ONE CLICK TOO LATE",
-    "title_pattern": "\ud83e\ude9e Juxtaposition",
-    "theme": "maintenance",
+    "title": "ONE TAB OUT OF DATE — ONE CLICK TOO LATE",
+    "framing": "Juxtaposition",
+    "emotion": "maintenance",
+    "palette": "Optimism",
+    "risk_category": "software hygiene",
     "poster_hint": "Why browser updates matter more than ever",
-    "keywords": [
-      "browser",
-      "zero-day",
-      "patches",
-      "updates"
-    ]
+    "keywords": ["browser", "zero-day", "patches", "updates"]
   }
 ]

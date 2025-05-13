@@ -27,6 +27,17 @@ Before citing a source, confirm:
 - ❌ No placeholder or fake URLs (e.g., `/example-link`)
 - ❌ No homepage-only links — always link directly to relevant articles
 
+🚫 Also confirm the article is **appropriate for a general workplace audience**:
+
+- ❌ Avoid sources that include sexually explicit content, graphic violence, or emotionally charged headlines
+- ❌ Avoid citations from articles that could be viewed as NSFW, distressing, or polarizing
+- ✅ Prefer sources that are neutrally written and broadly accessible
+
+🛡️ When in doubt:
+
+- Look for a neutral-phrased version of the story from the same or similar source
+- Focus on behavior, not headlines
+
 ---
 
 ## 🏷️ Citation Practice
